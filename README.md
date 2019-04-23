@@ -34,7 +34,6 @@ Shiro缓存管理：
 1CacheManager.Cache
 2Redis实现cacheManager---配置类覆盖，要写在xml文件中
 
-写好了放在自己的GitHub上面给别人看
 
 
 
