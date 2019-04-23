@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Shiro-Web-Login</title>
+</head>
+<body>
+<form action="subLogin" method="post">
+    用户名：<input type="text" name="username"/> <br>
+    密码：<input type="password" name="password"/> <br>
+    <!--记住我：<input type="checkbox" value="rememberMe"/> <br>-->
+    <input id="rememberMe" type="hidden" name="rememberMe" value="false"/>
+    <input type="checkbox"
+           onclick="document.getElementById('rememberMe').value=document.getElementById('rememberMe').value==='false';"/>
+    记住我<br/>
+    <input type="submit" value="提交">
+</form>
+</body>
+</html>
